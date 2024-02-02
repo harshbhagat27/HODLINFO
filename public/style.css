@@ -1,0 +1,91 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.top-bar {
+  background-color: #131722;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5em;
+  color: #fff;
+}
+
+.price-info {
+  display: flex;
+}
+
+.price-change {
+  margin-right: 20px;
+  color: #fff;
+}
+
+.price-change span {
+  display: block;
+  color: #8a8a8a;
+}
+
+.connect-telegram button {
+  background-color: #0088cc;
+  border: none;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.main-content {
+  background-color: #242d3e;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.best-price .price {
+  font-size: 2em;
+  margin: 10px 0;
+}
+
+.best-price .average {
+  color: #8a8a8a;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #252e3d;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 15px;
+  border-bottom: 1px solid #252e3d;
+}
+
+th {
+  color: #8a8a8a;
+}
+
+td {
+  color: #fff;
+}
+
+.negative {
+  color: #e15241;
+}

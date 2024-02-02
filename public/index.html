@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crypto Price Table</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="fetchCryptoData.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <!-- Top Bar -->
+        <div class="top-bar">
+          <div class="logo">HODLINFO</div>
+          <div class="price-info">
+            <div class="price-change">0.34% <span>5 Mins</span></div>
+            <div class="price-change">0.82% <span>1 Hour</span></div>
+            <div class="price-change">6.17% <span>1 Day</span></div>
+            <div class="price-change">11.98% <span>7 Days</span></div>
+          </div>
+          <div class="connect-telegram">
+            <button>Connect Telegram</button>
+          </div>
+        </div>
+        <!-- Main Content -->
+        <div class="main-content">
+          <div class="best-price">
+            <div>Best Price to Trade</div>
+            <div class="price">₹38,36,534</div>
+            <div class="average">
+              Average BTC/INR net price including commission
+            </div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <table>
+          <!-- Table Head -->
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Platform</th>
+              <th>Last Traded Price</th>
+              <th>Buy / Sell Price</th>
+              <th>Difference %</th>
+              <th>Base_unit</th>
+            </tr>
+          </thead>
+          <tbody id="cryptoDataContainer">
+            <!-- Table Rows -->
+            <tr>
+              <td>1</td>
+              <td>WazirX</td>
+              <td>₹37,41,117</td>
+              <td>₹37,12,510 / ₹37,41,117</td>
+              <td class="negative">-2.49%</td>
+              <td class="negative">₹95,417</td>
+            </tr>
+            <!-- More rows go here -->
+          </tbody>
+        </table>
+      </main>
+    </div>
+  </body>
+</html>
